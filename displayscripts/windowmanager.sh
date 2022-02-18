@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# close the Omnitracs pop up window
-wmctrl -c "Services Portal | Omnitracs, LLC - Announcements - Google Chrome"
-
-# swap between the two browsers using a while loop
 while true ;
 do
 	wmctrl -a "Fleet Mapping — Google Chrome"
